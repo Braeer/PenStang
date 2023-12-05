@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  min-width: 700px;
+  background-image: url(../../images/perehod/2023-12-05\ 12.50.15.jpg);
+  background-size: contain;
+  background-repeat: repeat-y;
+}
+.header {
+  text-align: center;
+  margin-bottom: 30vh;
+  color: white;
+  font-family: 'Bevellier-BoldItalic';
+  font-size: calc((1vw + 1vh) * 4);
+  padding-top: 66px;
+}
+.header h1 {
+  position: relative;
+  z-index: 0;
+}
+.header h1::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle, rgba(90,99,102,1) 0%, rgba(54,68,74,1) 100%);
+  opacity: 0.8;
+  border-radius: 50px;
+}
+a {
+  text-decoration: none;
+}
+.header {
+
+}
+.content {
+  
+}
+.conteiner {
+  display: flex;
+  flex-direction: column;
+}
+.content__item {
+  margin: 0 auto;
+  width: 90vw;
+  height: 50vh;
+  margin-top: 40px;
+  /* background-color: black; */
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  position: relative;
+  z-index: 0;
+}
+.content__item::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle, rgba(90,99,102,1) 0%, rgba(54,68,74,1) 100%);
+  opacity: 0.8;
+  border-radius: 50px;
+}
+.content__item h2 {
+  opacity: 1;
+}
+.content__img {
+
+}
+.content__h2 {
+  font-size: calc((1vw + 1vh) * 8);
+  margin: 0 auto;
+  color: white;
+  font-family: 'Bevellier-BoldItalic';
+}
+@media screen and (max-width: 870px) {
+  .content__item  {
+    width: 98vw;
+  }
+}
