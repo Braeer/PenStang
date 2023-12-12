@@ -34,12 +34,12 @@ body {
 a {
   text-decoration: none;
 }
-.header {
+/* .header {
 
 }
 .content {
   
-}
+} */
 .conteiner {
   display: flex;
   flex-direction: column;
@@ -71,9 +71,9 @@ a {
 .content__item h2 {
   opacity: 1;
 }
-.content__img {
+/* .content__img {
 
-}
+} */
 .content__h2 {
   font-size: calc((1vw + 1vh) * 8);
   margin: 0 auto;
