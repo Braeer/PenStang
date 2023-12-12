@@ -171,9 +171,14 @@ section {
 
 .section__pic-container {
   display: flex;
-  height: 400px;
+  /* height: 400px; */
   width: 400px;
   margin: auto 0;
+}
+.section__pic-container img {
+  width: 450px;
+  height: 400px;
+  border-radius:20%;
 }
 
 .section__text {
@@ -432,6 +437,9 @@ article .icon {
 
 .email-icon {
   height: 2.5rem;
+}
+.konstruct {
+  
 }
 
 /* FOOTER SECTION */
